@@ -1,1 +1,1 @@
-# gs_assignments2
+# Assignment Gallery
