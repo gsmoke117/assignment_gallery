@@ -1,0 +1,45 @@
+body        {
+        background-image: url(dance.jpg);
+
+        font-size:14pt;
+        margin:0;
+        background-size: cover;
+        background-image: dance.jpg;
+}
+#header     {
+        background-color:black;
+        width:80%;
+        color:white;
+        text-align:center;
+        margin:0 auto;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        vertical-align:middle;
+
+}
+#header p   {
+        font-size:30pt;
+        font-family:arial black, sans-serif;
+}
+
+#container      {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding-top:10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width:80%;
+        margin:0 auto;
+
+}
+label.special          {
+        font-weight:bold;
+        font-size:14pt;
+        font-family:arial black, sans-serif;
+}
+legend.special     {
+        font-weight:bold;
+        font-size:14pt;
+        font-family:arial black, sans-serif;
+}

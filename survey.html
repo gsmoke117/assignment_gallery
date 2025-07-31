@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+
+<html>
+<link href="survey.css" rel="stylesheet" type="text/css">
+<head>
+  <title>Music Survey (Form)</title>
+
+</head>
+
+<body>
+  <div id="header">
+<p>Survey Form</p>
+  </div>
+<div id="container">
+<form action="https://formspree.io/f/mvgqognv" method="post">
+    <h2>Music Survey</h2>
+
+    <label class="special">Name:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label class="special">Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label class ="special"> Favorite Types of Music</label><br>
+    <input type="checkbox" name="music_type" value="Pop"> Pop<br>
+    <input type="checkbox" name="music_type" value="Classical"> Classical<br>
+    <input type="checkbox" name="music_type" value="Rock"> Rock<br>
+    <input type="checkbox" name="music_type" value="Folk"> Folk<br>
+    <input type="checkbox" name="music_type" value="Rap"> Rap<br>
+    <input type="checkbox" name="music_type" value="Other"> Other<br><br>
+
+    <label class="special">Select how often you purchase Music CDs:</label><br>
+    <input type="radio" name="frequency" value="Weekly"> Weekly<br>
+    <input type="radio" name="frequency" value="A few"> A few CDs each year<br>
+    <input type="radio" name="frequency" value="Monthly"> Monthly<br>
+    <input type="radio" name="frequency" value="Never Purchased"> Never Purchased<br><br>
+
+    <label class="special">Select the locations you listen to music</label><br>
+      <select name="Locations">
+        <option value="Home">Home</option>
+        <option value="Car">Car</option>
+        <option value="Work">Work</option>
+        <option value="Gym">Gym</option>
+        </select><br><br>
+    <label class="special">What role does music play in your life?:</label><br>
+    <textarea name="role"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
